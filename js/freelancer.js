@@ -40,8 +40,17 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $(".navbar-brand-logo").addClass("navbar-logo-shrink");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
+    }
+  };
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $(".navbar-brand-logo").addClass("navbar-logo-shrink");
+    } else {
+      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
     }
   };
   // Collapse now if page is not at top
