@@ -1,6 +1,11 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  if (iosVersion >= 7) {
+      $(document).scroll(function() {
+          $('.masthead').css('background-position', '0px ' + $(document).scrollTop() + 'px');
+      });
+  }
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
