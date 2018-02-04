@@ -46,3 +46,5 @@ header.masthead:before{content: ''; position: absolute; top: 0.5rem; right: 0; b
 @media (max-width:432px) {.navbar-brand-logo{height:60px;}}
 @media (max-width:990px) { .v-center-align{margin-top:50%} header.masthead{background: url('../img/medicalsheet-3-sm.jpg'); background-position:bottom;background-attachment:fixed;background-repeat:no-repeat;background-size:100vw; height: 100vh; min-width:100%; overflow: hidden; position:fixed; top: 0.6rem; z-index:0;}}
 @media (max-width:576px) { .v-center-align{margin-top:25%;}}
+@media (max-width: 767px) {header.masthead {
+    background-attachment: initial;}}
