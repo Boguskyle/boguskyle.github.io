@@ -17,7 +17,8 @@ header.masthead h1{font-size:2rem;line-height:2rem}header.masthead h2{font-size:
 form .row:first-child .floating-label-form-group{border-top:1px solid #e9ecef}
 .bg-primary{background-color:#dddddd!important}#communicate{background-color:#f2f2f2!important}#about{color:white;background-color:#474040!important}.bg-thirdly{background-color:#332b2b!important}.bg-secondary{background-color:#942019!important}.bg-fourth{background-color:#231E1E!important}.text-primary{color:#942019!important}.text-secondary{color:#942019!important}.text-thirdly{color:#332b2b!important}.btn-primary{background-color:#942019;border-color:#942019}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#942019;border-color:#128f76;opacity:0.8}.btn-secondary{background-color:#2c3e50;border-color:#2c3e50}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#1a252f;border-color:#1a252f}
 @media (min-width:576px) {#float-right{float:right;}}
-@media (max-width:432px) {.navbar-brand-logo{height:60px;}}
+@media (min-width:434px){.navbar-brand-logo{height:80px;}}
+@media (max-width:432px) {.navbar-brand-logo{height:50px;}}
 @media (max-width:990px) { .v-center-align{margin-top:50%} header.masthead{background: url('../img/medicalsheet-3-sm.jpg'); background-position:bottom;background-attachment:fixed;background-repeat:no-repeat;background-size:100vw; height: 100vh; min-width:100%; overflow: hidden; position:fixed; top: 0.6rem; z-index:0;}
 }
 @media (max-width:576px) { .v-center-align{margin-top:25%;}.row{display:flex;flex-flow:column;}#o1{order:1;}#o2{order:2;}
@@ -29,7 +30,7 @@ form .row:first-child .floating-label-form-group{border-top:1px solid #e9ecef}
  h1,h2,h3,h5,h6{font-family:'Sanchez';}
  h3{letter-spacing:2px;font-size:1.5em}
  h4{font-size:1.4rem;line-height:1.5rem;font-weight:400}
- .canvas {position:relative; margin-top:100vh; background-color: white;border-radius:15px 15px 15px 15px; -moz-border-radius: 15px;
+ .canvas {position:relative; margin-top:100vh; width:100%; background-color: white;border-radius:15px 15px 15px 15px; -moz-border-radius: 15px;
 -webkit-border-radius: 15px 15px 15px 15px; -o-border-radius: 15px; z-index:2;}
  #kylefrontpage { z-index:3; position:fixed; top: calc(50vh - 30px);}
  #contact{border-radius:15px;}
@@ -45,7 +46,7 @@ form .row:first-child .floating-label-form-group{border-top:1px solid #e9ecef}
 .sub-col-comment{font-weight:200;font-size:1.1rem;}
 h4{line-height:2rem;}
 #about{background: linear-gradient(to bottom, #2D2B2B 5%, #5D5A5A);}
-.navbar-brand-logo{height:80px; transition-property:height; transition-duration: 1s;}.navbar-logo-shrink{height:40px;}
+.navbar-brand-logo{ transition-property:height; transition-duration: 1s;}.navbar-logo-shrink{height:40px;}
 #grade-up{ background: linear-gradient(to bottom, #231E1E 5%, #383434);}
 header.masthead{background-attachment:fixed;background-repeat:no-repeat; height: 100vh; min-width:100%; position:fixed; top: 0; z-index:-1;}
 img.bgimage{height: 100%; min-width: 100%; z-index:0;}
