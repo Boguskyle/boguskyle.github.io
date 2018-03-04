@@ -15,15 +15,7 @@
     }
   });
 
-  // Scroll to top button appear
-  $(document).scroll(function() {
-    var scrollDistance = $(this).scrollTop();
-    if (scrollDistance > 100) {
-      $('.scroll-to-top').fadeIn();
-    } else {
-      $('.scroll-to-top').fadeOut();
-    }
-  });
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -49,12 +41,23 @@
   navbarCollapse();
 
   // Collapse the navbar when page is scrolled
-  $(window).on('scroll', function(){
+  /*$(window).on('scroll', function(){
+    $('.navbar-collapse').collapse('hide');
+    navbarCollapse();
+  });*/
+
+  $(window).on('scroll touchmove', function(){
     $('.navbar-collapse').collapse('hide');
     navbarCollapse();
   });
 
 
+$(window).ready(() => {
+  $('#logo-anim').fadeIn(3000);
+  $('#kylefrontpage1').fadeIn(2000);
+  $('#kylefrontpage2').fadeIn(5000);
+  $('#kylefrontpage3').fadeIn(3000);
+})
 
 
   // Floating label headings for the contact form
