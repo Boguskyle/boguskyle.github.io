@@ -36,17 +36,9 @@
     offset: 80
   });
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-      $(".navbar-brand-logo").addClass("navbar-logo-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
-    }
-  };
-  var navbarCollapse = function() {
+  // function to collapse Navbar
+
+  function navbarCollapse() {
     if ($("#mainNav").offset().top > 100) {
       $(".navbar-brand-logo").addClass("navbar-logo-shrink");
     } else {
@@ -55,20 +47,15 @@
   };
   // Collapse now if page is not at top
   navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
 
-  // Modal popup$(function () {
-  $('.portfolio-item').magnificPopup({
-    type: 'inline',
-    preloader: false,
-    focus: '#username',
-    modal: true
+  // Collapse the navbar when page is scrolled
+  $(window).on('scroll', function(){
+    $('.navbar-collapse').collapse('hide');
+    navbarCollapse();
   });
-  $(document).on('click', '.portfolio-modal-dismiss', function(e) {
-    e.preventDefault();
-    $.magnificPopup.close();
-  });
+
+
+
 
   // Floating label headings for the contact form
   $(function() {
