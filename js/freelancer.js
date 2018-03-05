@@ -56,7 +56,7 @@ $(window).ready(() => {
   $('#logo-anim').fadeIn(3000);
   $('#kylefrontpage1').fadeIn(2000);
   $('#kylefrontpage2').fadeIn(5000);
-  $('#kylefrontpage3').fadeIn(3000);
+  $('#kylefrontpage3').fadeIn(4000);
 })
 
 

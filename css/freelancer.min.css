@@ -13,10 +13,9 @@ fourth almost black: #231E1E
  img.bgimage{height: 100%; min-width:100%;  overflow:hidden; z-index:0;}
  .canvas {position:relative; margin-top:100vh; width:100%; background-color: white;border-radius:15px; -moz-border-radius: 15px;
 -webkit-border-radius: 15px; -o-border-radius: 15px; z-index:2;}
- #kylefrontpage { z-index:3; position:fixed; top: calc(50vh - 30px);}
- #kylefrontpage1{display:none;}
- #kylefrontpage2{display:none;}
- #kylefrontpage3{display:none;}
+ #kylefrontpage { z-index:3; position:fixed; top: calc(50vh - 110px);}
+ #kylefrontpage1, #kylefrontpage2, #kylefrontpage3{display:none;}
+ .fontlight{font-weight:200;}
  #logo-anim{display:none;}
  #contact{border-radius:15px;}
  #us{color:white; letter-spacing:1px;}
@@ -30,7 +29,11 @@ fourth almost black: #231E1E
 .form-control{padding:0;}
 .sub-col-comment{font-weight:200;font-size:1.1rem;}
 h4{line-height:2rem;}
-#about{background: linear-gradient(to bottom, #2D2B2B 5%, #5D5A5A);}
+#about{background: linear-gradient(to bottom, #2D2B2B 5%, #535151);}
+#us{background: linear-gradient(to bottom, #535151 5%, #7D7A7A);}
+.clienticon{ max-height: 100%;max-width: 100%;margin:auto}
+.clienticoncol{height:5rem;}
+
 .navbar-brand-logo{ transition-property:height; transition-duration: 1s;}.navbar-logo-shrink{height:40px;}
 #grade-up{ background: linear-gradient(to bottom, #231E1E 5%, #383434);}
 .profile-circle{ border-radius:100%; display:block; box-shadow:0px 15px 15px #4B4848;}
@@ -66,7 +69,7 @@ header.masthead h1{font-size:2rem;line-height:2rem}header.masthead h2{font-size:
 @media (min-width:576px) {.float-right{float:right;}}
 @media (min-width:434px){.navbar-brand-logo{height:80px;}.navbar-logo-shrink{height:40px;}}
 @media (max-width:432px) {.navbar-brand-logo{height:60px;}.navbar-logo-shrink{height:40px;}}
-@media (max-width:990px) { .v-center-align{margin-top:50%}
+@media (max-width:993px) { .v-center-align{margin-top:50%} .navbar{padding:.3rem 1rem;}#mainNav .navbar-toggler{padding:.7rem;}
 }
 @media (max-width:576px) { .v-center-align{margin-top:25%;}.row{display:flex;flex-flow:column;}#o1{order:1;}#o2{order:2;}
 .sub-col-l *{text-align:center;margin: 1rem auto;display:block;}.sub-col-r *{text-align:center;margin:1rem auto;display:block;float:none;padding:0;}#grade-up{ background-color: #231E1E;}}
