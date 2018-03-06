@@ -29,10 +29,11 @@ fourth almost black: #231E1E
 .form-control{padding:0;}
 .sub-col-comment{font-weight:200;font-size:1.1rem;}
 h4{line-height:2rem;}
-#about{background: linear-gradient(to bottom, #2D2B2B 5%, #535151);}
-#us{background: linear-gradient(to bottom, #535151 5%, #7D7A7A);}
-.clienticon{ max-height: 100%;max-width: 100%;margin:auto}
-.clienticoncol{height:5rem;}
+#about{background: linear-gradient(to bottom, #2D2B2B, #424040);}
+#us{background: linear-gradient(to bottom, #424040, #6C6A6A);}
+#clients{background: linear-gradient(to bottom, #6C6A6A, #817F7F);}
+.clienticon{ max-height: 40px;;max-width: 100%;margin:auto}
+.clienticoncol{height:4rem;}
 
 .navbar-brand-logo{ transition-property:height; transition-duration: 1s;}.navbar-logo-shrink{height:40px;}
 #grade-up{ background: linear-gradient(to bottom, #231E1E 5%, #383434);}
