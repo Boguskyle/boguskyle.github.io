@@ -21,7 +21,7 @@ fourth almost black: #231E1E
  #chevron{position:absolute; top: calc(100vh - 70px); left:calc(50vw - 15px); height:30px; width:40px; display:none;}
  #logo-anim{display:none;}
  #contact{border-radius:15px;}
- #us{color:white; letter-spacing:1px;}
+ #us{color:white; letter-spacing:0.5px;}
  .my-6{margin-top:5rem;margin-bottom:6rem;}
  .fill {height:100%;min-height100%;}
  .v-center-align {margin-top:20%}
@@ -47,7 +47,7 @@ h4{line-height:2rem;}
 .footer{padding-top:1rem;padding-bottom:1rem;background-color:#332b2b;color:#fff}.copyright{background-color:#231E1E;}a{color:#942019}a:active,a:focus,a:hover{color:#128f76}.btn{border-width:2px}
  hr.star-dark,hr.star-light{max-width:15rem;padding:0;text-align:center;border:none;border-top:solid .25rem;margin-top:2.5rem;margin-bottom:2.5rem}hr.star-dark:after,hr.star-light:after{position:relative;top:-.8em;display:inline-block;padding:0 .25em;content:'\f005';font-family:FontAwesome;font-size:2em}hr.star-light{border-color:#fff}hr.star-light:after{color:#fff;background-color:#942019}hr.star-dark{border-color:#2c3e50}hr.star-dark:after{color:#2c3e50;background-color:#fff}section{padding:4rem 0}section h2{font-size:2.25rem;line-height:2rem}
 #mainNav{background: linear-gradient(to right, #851C16 10%, #942019, #851C16 90%);}
-.btn-xl{padding:1rem 6rem;font-size:1rem}.btn-social{width:3.25rem;height:3.25rem;font-size:1.25rem;line-height:2rem}.scroll-to-top{z-index:1042;right:1rem;bottom:1rem;display:none}.scroll-to-top a{width:3.5rem;height:3.5rem;background-color:rgba(33,37,41,.5);line-height:3.1rem}   #mainNav{font-weight:400; font-family: 'Work Sans', sans-serif;}#mainNav .navbar-brand{color:#fff}#mainNav .navbar-nav{margin-top:1rem;letter-spacing:.0625rem}#mainNav .navbar-nav li.nav-item a.nav-link{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link:hover{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link.active{color:#fff}#mainNav .navbar-toggler{font-size:80%;padding:.8rem;}
+.btn-xl{padding:1rem 6rem;font-size:1rem}.btn-social{width:3.25rem;height:3.25rem;font-size:1.25rem;line-height:2rem}  #mainNav{font-weight:400; font-family: 'Work Sans', sans-serif;}#mainNav .navbar-brand{color:#fff}#mainNav .navbar-nav{margin-top:1rem;letter-spacing:.0625rem}#mainNav .navbar-nav li.nav-item a.nav-link{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link:hover{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus{color:#fff}#mainNav .navbar-nav li.nav-item a.nav-link.active{color:#fff}#mainNav .navbar-toggler{font-size:80%;padding:.8rem;}
 .floating-label-form-group{position:relative;border-bottom:1px solid #e9ecef}.floating-label-form-group input,.floating-label-form-group textarea{font-size:1.2em;position:relative;z-index:1;padding-right:0;padding-left:0;resize:none;border:none;border-radius:0;background:0 0;box-shadow:none!important}
 .floating-label-form-group label{font-size:.85em;line-height:1em;position:relative;z-index:0;top:2em;display:block;margin:0;-webkit-transition:top .3s ease,opacity .3s ease;-moz-transition:top .3s ease,opacity .3s ease;-ms-transition:top .3s ease,opacity .3s ease;transition:top .3s ease,opacity .3s ease;vertical-align:middle;vertical-align:baseline;opacity:0}
 .floating-label-form-group:not(:first-child){padding-left:14px;border-left:1px solid #e9ecef}
