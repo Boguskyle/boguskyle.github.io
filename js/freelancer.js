@@ -30,13 +30,64 @@
 
   // function to collapse Navbar
 
-  function navbarCollapse() {
+  /*function navbarCollapse() {
     if ($("#mainNav").offset().top > 100) {
       $(".navbar-brand-logo").addClass("navbar-logo-shrink");
-    } else {
-      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
+      $('#chevron').fadeOut(1500);
+
+      if (window.innerWidth < 993){
+        setTimeout(function() {
+          $('#mobilecontactlink').filter(":not(:animated)").fadeIn(1000);
+          }
+          , 1500);
+      }
+      else {};
     }
-  };
+    else if ($("#mainNav").offset().top > 400) {
+
+    }
+    else {
+      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
+      if (window.innerWidth < 993){
+        setTimeout(function() {
+          $('#mobilecontactlink').filter(":not(:animated)").fadeOut(1000);
+          }
+          , 20);
+
+          }
+          else {};
+      }
+    }*/
+
+
+    function navbarCollapse() {
+
+      if ($("#mainNav").offset().top > 700) {
+        $(".navbar-brand-logo").filter(":not(:animated)").addClass("navbar-logo-shrink");
+        $('#mobilecontactlink').filter(":not(:animated)").addClass("showmcl");
+        $('#mobilecontactlink').html("Contact Us");
+        }
+      else if ($("#mainNav").offset().top > 100) {
+        $(".navbar-brand-logo").filter(":not(:animated)").addClass("navbar-logo-shrink");
+        $('#chevron').fadeOut(1500);
+        $('#mobilecontactlink').filter(":not(:animated)").removeClass("showmcl");
+      }
+        else {
+          $(".navbar-brand-logo").filter(":not(:animated)").removeClass("navbar-logo-shrink");
+          $('#mobilecontactlink').filter(":not(:animated)").removeClass("showmcl");
+          $('#mobilecontactlink').html(" ");
+        }
+      }
+
+
+
+  if ($("#mainNav").offset().top < 100){
+    setTimeout(function(){
+      $('#chevron').fadeIn(2500); }, 3300);}
+    else {
+      $('#chevron').fadeOut(2500); }
+
+
   // Collapse now if page is not at top
   navbarCollapse();
 
@@ -53,10 +104,14 @@
 
 
 $(window).ready(() => {
-  $('#logo-anim').fadeIn(3000);
-  $('#kylefrontpage1').fadeIn(2000);
-  $('#kylefrontpage2').fadeIn(5000);
-  $('#kylefrontpage3').fadeIn(4000);
+  setTimeout(function(){
+    $('#logo-anim').fadeIn(3000); }, 800);
+  setTimeout(function(){
+    $('#kylefrontpage1').fadeIn(4000); }, 200);
+  setTimeout(function(){
+    $('#kylefrontpage2').fadeIn(2500); }, 1300);
+  setTimeout(function(){
+    $('#kylefrontpage3').fadeIn(2500); }, 1600);
 })
 
 
