@@ -78,19 +78,7 @@ gulp.task('copy', function() {
   gulp.src(['node_modules/jquery.easing/*.js'])
     .pipe(gulp.dest('vendor/jquery-easing'))
 
-  gulp.src(['node_modules/magnific-popup/dist/*'])
-    .pipe(gulp.dest('vendor/magnific-popup'))
 
-  gulp.src([
-      'node_modules/font-awesome/**',
-      '!node_modules/font-awesome/**/*.map',
-      '!node_modules/font-awesome/.npmignore',
-      '!node_modules/font-awesome/*.txt',
-      '!node_modules/font-awesome/*.md',
-      '!node_modules/font-awesome/*.json'
-    ])
-    .pipe(gulp.dest('vendor/font-awesome'))
-})
 
 // Default task
 gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
