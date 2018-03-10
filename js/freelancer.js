@@ -16,7 +16,6 @@
   });
 
 
-
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -104,9 +103,9 @@
 
 $(window).ready(() => {
   setTimeout(function(){
-    $('#logo-anim').fadeIn(3000); }, 800);
+    $('#logo-anim').fadeIn(4000); }, 200);
   setTimeout(function(){
-    $('#kylefrontpage1').fadeIn(4000); }, 200);
+    $('#kylefrontpage1').fadeIn(4000); }, 1000);
   setTimeout(function(){
     $('#kylefrontpage2').fadeIn(2500); }, 1300);
   setTimeout(function(){
