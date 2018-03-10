@@ -9,7 +9,7 @@ fourth almost black: #231E1E
 
 @media (max-width:576px) { .v-center-align{margin-top:25%;}.row{display:flex;flex-flow:column;}
 .sub-col-l *{text-align:center;margin: 1rem auto;display:block;}.sub-col-r *{text-align:center;margin:1rem auto;display:block;float:none;padding:0;}
-#grade-up{ background-color: #231E1E;} #kylefrontpage{top: calc(50vh - 200px)}}
+#grade-up{ background-color: #231E1E;}  #kylefrontpage{top: calc(30vh - 100px)}}
 @media (min-width:577px){.sub-col-l *{float:right;text-align:right; padding-right:2rem;margin-bottom: 1.5rem;}#logo-anim{float:right;}}
 @media (max-width: 768px) {.icon{height:6rem;} .profile-circle{margin:2.25rem auto;}#pickersonsolutionsp{text-align:center;} }
 /*  Breakpoint for tablet  */
@@ -72,3 +72,4 @@ header.masthead h2{font-size:1.75em}}
 form .row:first-child .floating-label-form-group{border-top:1px solid #e9ecef}
 .bg-primary{background-color:#dddddd!important}#about{color:white;background-color:#474040!important}.bg-thirdly{background-color:#332b2b!important}.bg-secondary{background-color:#942019!important}.bg-fourth{background-color:#231E1E!important}.text-primary{color:#942019!important}.text-secondary{color:#942019!important}.text-thirdly{color:#332b2b!important}.btn-primary{background-color:#942019;border-color:#942019}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#942019;border-color:#128f76;opacity:0.8}.btn-secondary{background-color:#2c3e50;border-color:#2c3e50}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#1a252f;border-color:#1a252f}
 @media (max-width: 768px){.showmcl{visibility: visible; opacity: 1;}}
+@media (max-width:576px){#kylefrontpage{top: calc(30vh - 100px)}}
