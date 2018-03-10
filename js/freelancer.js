@@ -25,7 +25,7 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 80
+    offset: 60
   });
 
   // function to collapse Navbar
@@ -89,7 +89,6 @@
 
 
   // Collapse now if page is not at top
-  navbarCollapse();
 
   // Collapse the navbar when page is scrolled
   /*$(window).on('scroll', function(){
@@ -97,7 +96,7 @@
     navbarCollapse();
   });*/
 
-  $(window).on('scroll touchmove', function(){
+  $(window).on('scroll', function(){
     $('.navbar-collapse').collapse('hide');
     navbarCollapse();
   });
