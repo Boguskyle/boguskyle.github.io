@@ -61,7 +61,7 @@ header.masthead h2{font-size:1.75em}}
 .icon{height:6rem;}
 .scroll-trigger .active{background-color:#fff;color:#942019;}
 .navbar-toggler{background-color:#fff;}
-#events{box-shadow:0px 4px 9px #383434;color:black;opacity:.9;min-height:17rem;border-radius:3px 3px 5px 5px;}
+#events{box-shadow:0px 4px 9px #383434;color:#6C6A6A;opacity:.9;min-height:17rem;border-radius:3px 3px 5px 5px;}
 #eventsheader{background-color:#942019; width:100%;border-bottom:1px solid #231E1E;border-radius:3px 3px 0 0;}
 #testimonial{padding:0 4rem; line-height:1.7rem; letter-spacing:1.4px;}
 
