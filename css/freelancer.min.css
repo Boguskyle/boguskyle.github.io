@@ -18,7 +18,7 @@ fourth almost black: #231E1E
 .portfolio-modal .portfolio-modal-dialog h2{font-size:1.75rem}#pickersonsolutionsp{text-align:right;}}
 @media (max-width:992px) {#mobilecontactlink{font-size:80%;}#communicate{margin-top:4rem;}#provide{margin-top:4rem;}.v-center-align{margin-top:50%}#mainNav .navbar-nav li.nav-item a.nav-link.active{color:white;}
 .navbar{padding:.2rem 0.75rem;}#mainNav .navbar-toggler{padding:.5rem;}
- .o1{order:1;}.o2{order:2;}.o3{order:3;}.ppoints{margin:2rem;}#events{margin-top:3rem;}}
+ .o1{order:1;}.o2{order:2;}.o3{order:3;}.ppoints{margin:2rem;}}
 /*  Breakpoint for desktop  */
 @media (min-width:993px){#mainNav{padding-top:0.5rem;padding-bottom:0.5rem;-webkit-transition:padding-top .3s,padding-bottom .3s;
   -moz-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s}
@@ -61,16 +61,16 @@ header.masthead h2{font-size:1.75em}}
 .icon{height:6rem;}
 .scroll-trigger .active{background-color:#fff;color:#942019;}
 .navbar-toggler{background-color:#fff;}
-#events{box-shadow:0px 4px 9px #383434;color:#6C6A6A;opacity:.9;min-height:17rem;border-radius:3px 3px 5px 5px;}
+#events{box-shadow:0px 4px 18px #383434;color:#6C6A6A;opacity:.9;min-height:20rem;border-radius:3px 3px 5px 5px; font-size:.8rem;padding-left:0;padding-right:0; background: linear-gradient(to bottom, #fff, #f2f2f2);}
 #eventsheader{background-color:#942019; width:100%;border-bottom:1px solid #231E1E;border-radius:3px 3px 0 0;}
 #testimonial{padding:0 4rem; line-height:1.7rem; letter-spacing:1.4px;}
-
+.table-cell{vertical-align:center;}
 .form-control-label {color:#888;line-height:1.5rem;display: block;position: relative;cursor: pointer;font-size: 1.15rem;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}.form-control-label input {position: absolute;opacity: 0;cursor: pointer;}
 .checkmark {box-shadow: 0px 3px 5px #D1D4D7;position: absolute;top: 0;left: 28%;height: 25px;width: 25px;background-color: #ECECEC;border-radius:8px;}.form-control-label:hover input ~ .checkmark {  background-color: #ccc;}.form-control-label input:checked ~ .checkmark {background-color: #942019;}.checkmark:after {content:"";position:absolute;display: none;}
 .form-control-label input:checked ~ .checkmark:after {display: block;}
 .form-control-label .checkmark:after {left: 9px;top: 4px;width: 8px;height: 14px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(40deg);-ms-transform: rotate(40deg);transform: rotate(40deg);}
 .form-check-label{color:#888;line-height:1.5rem;font-family:'Work Sans';font-size:1.2rem;}
-
+td.td-left{padding-left:2rem;}td.td-right{padding-right:2rem;text-align:center;}td{vertical-align:center;}
 .footer{padding-top:1rem;padding-bottom:1rem;background-color:#332b2b;color:#fff}.copyright{background-color:#231E1E;}a{color:#942019}a:active,a:focus,a:hover{color:#128f76}.btn{border-width:2px}
  hr.star-dark,hr.star-light{max-width:15rem;padding:0;text-align:center;border:none;border-top:solid .25rem;margin-top:2.5rem;margin-bottom:2.5rem}hr.star-dark:after,hr.star-light:after{position:relative;top:-.8em;display:inline-block;padding:0 .25em;content:'\f005';font-family:FontAwesome;font-size:2em}hr.star-light{border-color:#fff}hr.star-light:after{color:#fff;background-color:#942019}hr.star-dark{border-color:#2c3e50}hr.star-dark:after{color:#2c3e50;background-color:#fff}section{padding:4rem 0}
 #mainNav{background: linear-gradient(to right, #851C16 10%, #942019, #851C16 90%);}
@@ -82,5 +82,5 @@ header.masthead h2{font-size:1.75em}}
 .floating-label-form-group-with-focus label{color:#942019}
 form .row:first-child .floating-label-form-group{border-top:1px solid #e9ecef}
 .bg-primary{background-color:#dddddd!important}#about{color:white;background-color:#474040!important}.bg-thirdly{background-color:#332b2b!important}.bg-secondary{background-color:#942019!important}.bg-fourth{background-color:#231E1E!important}.text-primary{color:#942019!important}.text-secondary{color:#942019!important}.text-thirdly{color:#332b2b!important}.btn-primary{background-color:#942019;border-color:#942019}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#942019;border-color:#128f76;opacity:0.8}.btn-secondary{background-color:#2c3e50;border-color:#2c3e50}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#1a252f;border-color:#1a252f}
-@media (max-width: 768px){.showmcl{visibility: visible; opacity: 1;}}
+@media (max-width: 988px){.showmcl{visibility: visible; opacity: 1;}}
 @media (max-width:576px){.checkmark{left:10%;}}
