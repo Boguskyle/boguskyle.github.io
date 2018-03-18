@@ -24,39 +24,11 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 60
+    offset: 120
   });
 
   // function to collapse Navbar
 
-  /*function navbarCollapse() {
-    if ($("#mainNav").offset().top > 100) {
-      $(".navbar-brand-logo").addClass("navbar-logo-shrink");
-      $('#chevron').fadeOut(1500);
-
-      if (window.innerWidth < 993){
-        setTimeout(function() {
-          $('#mobilecontactlink').filter(":not(:animated)").fadeIn(1000);
-          }
-          , 1500);
-      }
-      else {};
-    }
-    else if ($("#mainNav").offset().top > 400) {
-
-    }
-    else {
-      $(".navbar-brand-logo").removeClass("navbar-logo-shrink");
-      if (window.innerWidth < 993){
-        setTimeout(function() {
-          $('#mobilecontactlink').filter(":not(:animated)").fadeOut(1000);
-          }
-          , 20);
-
-          }
-          else {};
-      }
-    }*/
 
 
     function navbarCollapse() {
